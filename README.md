@@ -48,3 +48,7 @@ The code is kept simple deliberately. The notes below concern Java Legal Matter 
 **Java Legal Matter CSV Export: Storage**
 - **Java Legal Matter CSV Export:** Create the bucket with the right ACL/region up front (`POST /v1/storage/bucket/create`); set CORS for browser uploads (`POST /v1/storage/bucket/set_cors`).
 - **Java Legal Matter CSV Export:** Presigned URLs expire; set the shortest workable lifetime. Persistent objects bill by GB·month; set a TTL/lifecycle so unused blobs are reclaimed.
+
+## Further reading
+
+- [Node.js Object Storage: How to Govern Browser Direct Uploads with Presigned URLs, 2026](docs/node-js-object-storage-how-to-govern-browser-dire-3msg67.md)
